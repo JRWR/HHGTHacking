@@ -1,0 +1,429 @@
+EESchema Schematic File Version 4
+LIBS:JRWR_badge-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D1
+U 1 1 5D555578
+P 3450 2700
+F 0 "D1" H 3443 2916 50  0000 C CNN
+F 1 "LED" H 3443 2825 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Castellated" H 3450 2700 50  0001 C CNN
+F 3 "~" H 3450 2700 50  0001 C CNN
+	1    3450 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 4250 4300 4050
+Wire Wire Line
+	3600 4250 4300 4250
+Wire Wire Line
+	3600 3900 4300 3900
+Wire Wire Line
+	3600 3750 4300 3750
+Wire Wire Line
+	3600 3600 4300 3600
+Wire Wire Line
+	3600 3450 4300 3450
+Wire Wire Line
+	3600 3300 4300 3300
+Wire Wire Line
+	3600 3150 4300 3150
+Wire Wire Line
+	4300 3000 3600 3000
+Wire Wire Line
+	3600 2850 4300 2850
+Wire Wire Line
+	4300 2700 3600 2700
+Wire Wire Line
+	4600 3900 4600 3750
+Connection ~ 4600 3900
+Wire Wire Line
+	4600 3750 4600 3600
+Connection ~ 4600 3750
+Wire Wire Line
+	4600 3600 4600 3450
+Connection ~ 4600 3600
+Wire Wire Line
+	4600 3450 4600 3300
+Connection ~ 4600 3450
+Wire Wire Line
+	4600 3300 4600 3150
+Connection ~ 4600 3300
+Wire Wire Line
+	4600 3150 4600 3000
+Connection ~ 4600 3150
+Wire Wire Line
+	4600 3000 4600 2850
+Connection ~ 4600 3000
+Wire Wire Line
+	4600 2850 4600 2700
+Connection ~ 4600 2850
+$Comp
+L Device:R R10
+U 1 1 5D5887F0
+P 4450 4050
+F 0 "R10" V 4243 4050 50  0000 C CNN
+F 1 "R" V 4334 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4380 4050 50  0001 C CNN
+F 3 "~" H 4450 4050 50  0001 C CNN
+	1    4450 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5D5887E2
+P 4450 3900
+F 0 "R9" V 4243 3900 50  0000 C CNN
+F 1 "R" V 4334 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4380 3900 50  0001 C CNN
+F 3 "~" H 4450 3900 50  0001 C CNN
+	1    4450 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5D58627C
+P 4450 3600
+F 0 "R7" V 4243 3600 50  0000 C CNN
+F 1 "R" V 4334 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4380 3600 50  0001 C CNN
+F 3 "~" H 4450 3600 50  0001 C CNN
+	1    4450 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5D58626E
+P 4450 3450
+F 0 "R6" V 4243 3450 50  0000 C CNN
+F 1 "R" V 4334 3450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4380 3450 50  0001 C CNN
+F 3 "~" H 4450 3450 50  0001 C CNN
+	1    4450 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5D586260
+P 4450 3300
+F 0 "R5" V 4243 3300 50  0000 C CNN
+F 1 "R" V 4334 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4380 3300 50  0001 C CNN
+F 3 "~" H 4450 3300 50  0001 C CNN
+	1    4450 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5D586252
+P 4450 3750
+F 0 "R8" V 4243 3750 50  0000 C CNN
+F 1 "R" V 4334 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4380 3750 50  0001 C CNN
+F 3 "~" H 4450 3750 50  0001 C CNN
+	1    4450 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5D585082
+P 4450 3150
+F 0 "R4" V 4243 3150 50  0000 C CNN
+F 1 "R" V 4334 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4380 3150 50  0001 C CNN
+F 3 "~" H 4450 3150 50  0001 C CNN
+	1    4450 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5D585074
+P 4450 3000
+F 0 "R3" V 4243 3000 50  0000 C CNN
+F 1 "R" V 4334 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4380 3000 50  0001 C CNN
+F 3 "~" H 4450 3000 50  0001 C CNN
+	1    4450 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5D5849DD
+P 4450 2850
+F 0 "R2" V 4243 2850 50  0000 C CNN
+F 1 "R" V 4334 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4380 2850 50  0001 C CNN
+F 3 "~" H 4450 2850 50  0001 C CNN
+	1    4450 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5D58407E
+P 4450 2700
+F 0 "R1" V 4243 2700 50  0000 C CNN
+F 1 "R" V 4334 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4380 2700 50  0001 C CNN
+F 3 "~" H 4450 2700 50  0001 C CNN
+	1    4450 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x05_Male J-CONN1
+U 1 1 5D579283
+P 2100 5150
+F 0 "J-CONN1" H 2208 5531 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 2208 5440 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical_SMD_Pin1Left" H 2100 5150 50  0001 C CNN
+F 3 "~" H 2100 5150 50  0001 C CNN
+	1    2100 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 2600 7300 2600
+$Comp
+L Device:LED D10
+U 1 1 5D55C1D6
+P 3450 4250
+F 0 "D10" H 3443 4466 50  0000 C CNN
+F 1 "LED" H 3443 4375 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Castellated" H 3450 4250 50  0001 C CNN
+F 3 "~" H 3450 4250 50  0001 C CNN
+	1    3450 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D9
+U 1 1 5D55B779
+P 3450 3900
+F 0 "D9" H 3443 4116 50  0000 C CNN
+F 1 "LED" H 3443 4025 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Castellated" H 3450 3900 50  0001 C CNN
+F 3 "~" H 3450 3900 50  0001 C CNN
+	1    3450 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D8
+U 1 1 5D55AEDF
+P 3450 3750
+F 0 "D8" H 3443 3966 50  0000 C CNN
+F 1 "LED" H 3443 3875 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Castellated" H 3450 3750 50  0001 C CNN
+F 3 "~" H 3450 3750 50  0001 C CNN
+	1    3450 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D7
+U 1 1 5D55A7D1
+P 3450 3600
+F 0 "D7" H 3443 3816 50  0000 C CNN
+F 1 "LED" H 3443 3725 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Castellated" H 3450 3600 50  0001 C CNN
+F 3 "~" H 3450 3600 50  0001 C CNN
+	1    3450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 5D559C1F
+P 3450 3450
+F 0 "D6" H 3443 3666 50  0000 C CNN
+F 1 "LED" H 3443 3575 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Castellated" H 3450 3450 50  0001 C CNN
+F 3 "~" H 3450 3450 50  0001 C CNN
+	1    3450 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 5D55921D
+P 3450 3300
+F 0 "D5" H 3443 3516 50  0000 C CNN
+F 1 "LED" H 3443 3425 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Castellated" H 3450 3300 50  0001 C CNN
+F 3 "~" H 3450 3300 50  0001 C CNN
+	1    3450 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5D5589CB
+P 3450 3150
+F 0 "D4" H 3443 3366 50  0000 C CNN
+F 1 "LED" H 3443 3275 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Castellated" H 3450 3150 50  0001 C CNN
+F 3 "~" H 3450 3150 50  0001 C CNN
+	1    3450 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5D5581C1
+P 3450 3000
+F 0 "D3" H 3443 3216 50  0000 C CNN
+F 1 "LED" H 3443 3125 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Castellated" H 3450 3000 50  0001 C CNN
+F 3 "~" H 3450 3000 50  0001 C CNN
+	1    3450 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5D556FDF
+P 3450 2850
+F 0 "D2" H 3443 3066 50  0000 C CNN
+F 1 "LED" H 3443 2975 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Castellated" H 3450 2850 50  0001 C CNN
+F 3 "~" H 3450 2850 50  0001 C CNN
+	1    3450 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 1850 3450 1850
+Wire Wire Line
+	3350 1900 3350 1850
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5D550696
+P 3450 2050
+F 0 "BT1" H 3568 2146 50  0000 L CNN
+F 1 "Battery_Cell" H 3568 2055 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_3034_1x20mm" V 3450 2110 50  0001 C CNN
+F 3 "~" V 3450 2110 50  0001 C CNN
+	1    3450 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Microchip_ATmega:ATmega4808-X U1
+U 1 1 5D54E520
+P 2200 3300
+F 0 "U1" H 2200 2111 50  0000 C CNN
+F 1 "ATmega4808-X" H 2200 2020 50  0000 C CNN
+F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 2200 3300 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/40002018A.pdf" H 2200 3300 50  0001 C CNN
+	1    2200 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2700 2900 2700
+Wire Wire Line
+	2900 2700 2900 3200
+Wire Wire Line
+	2900 3200 2800 3200
+Wire Wire Line
+	2950 2850 2950 3100
+Wire Wire Line
+	2950 3100 2800 3100
+Wire Wire Line
+	2950 2850 3300 2850
+Wire Wire Line
+	2800 3000 3300 3000
+Wire Wire Line
+	3300 3150 3000 3150
+Wire Wire Line
+	3000 2900 2800 2900
+Wire Wire Line
+	3000 3150 3000 2900
+Wire Wire Line
+	3300 3300 3150 3300
+Wire Wire Line
+	3150 3300 3150 2800
+Wire Wire Line
+	3150 2800 2800 2800
+Wire Wire Line
+	3300 3450 3000 3450
+Wire Wire Line
+	3000 3450 3000 3300
+Wire Wire Line
+	3000 3300 2800 3300
+Wire Wire Line
+	3300 3600 2900 3600
+Wire Wire Line
+	2900 3600 2900 3500
+Wire Wire Line
+	2900 3500 2800 3500
+Wire Wire Line
+	3300 3750 2850 3750
+Wire Wire Line
+	2850 3750 2850 3600
+Wire Wire Line
+	2850 3600 2800 3600
+Wire Wire Line
+	3300 3900 2950 3900
+Wire Wire Line
+	2950 3900 2950 3700
+Wire Wire Line
+	2950 3700 2800 3700
+Wire Wire Line
+	3300 4250 2800 4250
+Wire Wire Line
+	2800 4250 2800 3800
+Wire Wire Line
+	2300 5150 1100 5150
+Wire Wire Line
+	1100 5150 1100 2400
+Wire Wire Line
+	1100 2400 1600 2400
+Wire Wire Line
+	2300 4950 4600 4950
+Wire Wire Line
+	4600 3900 4600 4050
+Connection ~ 4600 4050
+Wire Wire Line
+	4600 4050 4600 4950
+Wire Wire Line
+	2300 5350 1950 5350
+Wire Wire Line
+	1950 4400 2200 4400
+Wire Wire Line
+	2350 5050 2300 5050
+Wire Wire Line
+	1400 5050 1400 2600
+Wire Wire Line
+	1400 2600 1600 2600
+Connection ~ 2300 5050
+Wire Wire Line
+	2300 5050 1400 5050
+Wire Wire Line
+	2300 5250 1300 5250
+Wire Wire Line
+	1300 5250 1300 2700
+Wire Wire Line
+	1300 2700 1600 2700
+Wire Wire Line
+	1950 4550 850  4550
+Wire Wire Line
+	850  4550 850  2150
+Wire Wire Line
+	850  2150 3450 2150
+Wire Wire Line
+	1950 4400 1950 4550
+Connection ~ 1950 4550
+Wire Wire Line
+	1950 4550 1950 5350
+Wire Wire Line
+	3350 1900 2200 1900
+Wire Wire Line
+	2200 1900 2200 2200
+Wire Wire Line
+	3450 1850 4600 1850
+Wire Wire Line
+	4600 1850 4600 2700
+Connection ~ 3450 1850
+Connection ~ 4600 2700
+$EndSCHEMATC
